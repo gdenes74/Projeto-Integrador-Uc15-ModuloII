@@ -1,0 +1,4 @@
+INSERT INTO Usuario (nome, login, senha, tipo) VALUES 
+('Guilherme', 'guilherme@email.com', md5('123'), 'Gerente geral'),
+('Lara', 'lara@email.com', md5('123456'), 'Gerente'),
+('atendente', 'atendente@email.com', md5('654321'), 'Usuario');
